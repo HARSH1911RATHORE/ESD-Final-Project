@@ -6,7 +6,7 @@ The inputs are the keypad 4x3, UART and remote control which is based on NEC pro
 
 # **Firmware Design:**
 
--   IR Remote Control Driver:
+-   ## IR Remote Control Driver:
 The remote driver consists of writing functions to decode the NEC protocol's pulses and pulse widths. The protocol as seen in the figure consists of 13.5 ms start of the frame where 9ms is pulse burst and 4.5ms is the space before the address and command bits. The start of frame is followed by 32-bit pulses which are in the following order:
 1. 8-bit address
 2. 8-bit inverse of the address
@@ -14,17 +14,17 @@ The remote driver consists of writing functions to decode the NEC protocol's pul
 4. 8-bit inverse of the command
 5. 562.5 uS period end pulse.
 
--    GRAPHICAL LCD DRIVER:
+-    ## GRAPHICAL LCD DRIVER:
 The graphical LCD works on SPI protocol t transmit messages to the screen. Whenever the D/C line is low, the data byte is selected and the following data bits are stored in the display data ram. After each data byte the address increments automatically. The data or instruction field is sent byte by byte from MSB to LSB.
 
--    DC MOTOR CONTROL USING PWM:
+-    ## DC MOTOR CONTROL USING PWM:
 DC motor converts electrical energy into mechanical energy. The direction of the dc motor can be reversed by changing the direct current through the motor. This can be done by using a motor driver which has a H- bridge circuit as is present in Motor driver L293d.
 The change in voltage applied to the motor results in changing the speed with the motor rotates, for which we use the PWM technique.
 
--    4*3 Keypad:
+-    ## 4*3 Keypad:
 The 4*3 Keypad is used for taking input from the user along with the keyboard input which is required for the reprogrammable functionality of the remote. In this driver code, we make all rows zero initially and all columns as one. Whenever a button is pressed column and the row corresponding to the button gets shorted and hence the column related to that row becomes zero.
 
--    Seven segment Display:
+-    ## Seven segment Display:
 Seven segment display consists of a number of LED segments, which need to switch on individually to display different patterns or numerical digits. It can be a common anode or common cathode. WE use the common anode 7 segment where the positive elements are left alone and the led segments which are switched on are made 0. For example, the binary code for digit zero will be 11000000 that is 0xC0 in hexadecimal. This needs to be sent to the port pin where seven segment display is connected to display the correct number pressed. In the project, seven segment display is used to display all the numbers or characters which are taken as input from the user.
 
 # Features 
