@@ -39,7 +39,7 @@ Seven segment display consists of a number of LED segments, which need to switch
 * Seven Segment Display
 
 # Block Diagram
-![](https://github.com/HARSH1911RATHORE/IOT_final_project_spring_2020/blob/master/BLOCK_DIAGRAM_IOT.png)
+![](https://github.com/HARSH1911RATHORE/IR_Remote_Control_using_8051-ESD_FINAL_PROJECT/blob/master/PICTURES/Block_Diagram.png)
 
 ## [](https://github.com/HARSH1911RATHORE/IOT_final_project_spring_2020/tree/1262f5e660c0273681406807c0b4457386b7123b#project-status)Project
 •	Aimed at controlling the peripheral devices like DC motor, LED, GLCD, seven-segment with the help of infrared communication
