@@ -30,7 +30,7 @@ Seven segment display consists of a number of LED segments, which need to switch
 * Controlled 4 peripheral devices like DC motor, LED, GLCD, seven-segment with infrared communication on 8051
 * Reprogramable functionality
 
-# Hardware Compoenents
+# Hardware Components
 * Atmel AT89C51
 * TSOP 38238 IR Receiver
 * NOKIA 5110 GRAPHICAL LCD
