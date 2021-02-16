@@ -42,10 +42,10 @@ Seven segment display consists of a number of LED segments, which need to switch
 ![](https://github.com/HARSH1911RATHORE/IR_Remote_Control_using_8051-ESD_FINAL_PROJECT/blob/master/PICTURES/Block_Diagram.png)
 
 # Project
-•	Aimed at controlling the peripheral devices like DC motor, LED, GLCD, seven-segment with the help of infrared communication
-•	Installed TSOP 38238 IR receiver to decode the address, command bits of keys pressed on remote using NEC protocol
-•	Featured reprogrammable remote functionality 
-•	Implemented SPI protocol for the graphical LCD and used PWM to control speed and direction of DC motor
+-	Aimed at controlling the peripheral devices like DC motor, LED, GLCD, seven-segment with the help of infrared communication
+-	Installed TSOP 38238 IR receiver to decode the address, command bits of keys pressed on remote using NEC protocol
+-	Featured reprogrammable remote functionality 
+-	Implemented SPI protocol for the graphical LCD and used PWM to control speed and direction of DC motor
 
 # Documentation
 ## HARSH RATHORE [](https://github.com/HARSH1911RATHORE/IOT_final_project_spring_2020/tree/1262f5e660c0273681406807c0b4457386b7123b#google-drive-link)[Google drive link](https://drive.google.com/drive/u/1/folders/1FM8G4nL0fplihENYMFtwnbRBXwX1w5KG)
