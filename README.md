@@ -2,7 +2,7 @@
 
 # Overview
 The purpose of the project is to control various peripheral devices using the IR remote. The system is based on Atmel AT89C51 Microcontroller board development which we worked on in our lab 1 to lab4. The system is integrated with various other sensors, actuators, and displays that form the core of the system design. 
-The inputs are the keypad 4*3, UART and remote control which is based on NEC protocol. TSOP 38238 is an Infrared receiver used to detect the pulses of the required frequency of 38 kHz used for communication with the microcontroller and other peripherals on the board. We use the external Rom address starting from 0XF000 to for LCD 16*4 l working and configuration. The Microcontroller Ports P0, P1, P2 and P3 are used for connecting the various board peripherals. The various peripherals along with the IR receiver sensor are connected to the microcontroller
+The inputs are the keypad 4x3, UART and remote control which is based on NEC protocol. TSOP 38238 is an Infrared receiver used to detect the pulses of the required frequency of 38 kHz used for communication with the microcontroller and other peripherals on the board. We use the external Rom address starting from 0XF000 to for LCD 16*4 l working and configuration. The Microcontroller Ports P0, P1, P2 and P3 are used for connecting the various board peripherals. The various peripherals along with the IR receiver sensor are connected to the microcontroller
 
 # **Firmware Design:**
 
